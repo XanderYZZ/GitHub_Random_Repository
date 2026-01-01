@@ -163,6 +163,11 @@ function App() {
             </div>
           </div>
         </div>
+        <div style={{marginTop: 16}}>
+          <button onClick={fetchRandomRepository} style={{"backgroundColor": "#229ac3ff", "width": "100%",}}>
+            Refresh
+          </button>
+        </div>
         </div>
       )}
       </div>
